@@ -42,8 +42,8 @@ The interactive web app is deployed on **Hugging Face Spaces** and accessible th
    - Example structure:
      ```
      id,content,date
-     1,"Article text here...",2024-01-15
-     2,"Another article...",2024-01-16
+     1,"Article text here..."
+     2,"Another article..."
      ```
 
 2. **Upload the CSV File**
@@ -65,7 +65,6 @@ The interactive web app is deployed on **Hugging Face Spaces** and accessible th
 #### Example CSV from Data Files
 
 You can download sample data from the `Data Files` folder:
-- `evaluation.csv` - Contains unclassified news articles ready for processing
 - `output.csv` - Pre-classified example showing expected output format
 
 ### Tab 2: ❓ Question Answering
@@ -141,7 +140,7 @@ Intelligent-News-Classification-Question-Answering-System/
 - **Visualization**: Matplotlib
 - **Language**: Python 3.x
 
-## 📈 Output Description
+
 
 ### Classification Output CSV
 
@@ -153,8 +152,8 @@ The output CSV includes:
 Example output structure:
 ```csv
 id,content,date,class
-1,"Article text...",2024-01-15,Sports
-2,"Another text...",2024-01-16,Business
+1,"Article text...",Sports
+2,"Another text...",Business
 ```
 
 ### Category Distribution Chart
@@ -205,22 +204,9 @@ A beautiful bar chart showing:
 - **Gradio Documentation**: [https://gradio.app](https://gradio.app)
 - **Transformers Library**: [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
 
-## 📝 Citation
 
-If you use this project in your research, please cite:
 
-```bibtex
-@software{news_classifier_qa,
-  title={Intelligent News Classification and Question Answering System},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/Ginidu2003/Intelligent-News-Classification-Question-Answering-System}
-}
-```
 
-## 📄 License
-
-This project is open-source and available for educational and research purposes.
 
 ## 🤝 Contributing
 
