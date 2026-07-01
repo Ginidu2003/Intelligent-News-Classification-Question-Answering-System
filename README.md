@@ -31,7 +31,7 @@ This project combines two powerful NLP tasks:
 
 The interactive web app is deployed on **Hugging Face Spaces** and accessible through the following URL:
 
-🔗 **[Launch Web App](https://huggingface.co/spaces/Ginidu2003/News-Classifier-QA)**
+🔗 **[Launch Web App](https://huggingface.co/spaces/Ginidu2003/News-Classifier)**
 
 ### Tab 1: 📊 News Classification
 
